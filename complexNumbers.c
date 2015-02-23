@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "complexNumbers.h"
-
+#include <math.h>
 /* Returns a dinamically allocated string that contains the textual representation
  * of the complex number c.
  * The string should be manually deallocated (free) when no longer needed.
