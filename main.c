@@ -5,7 +5,8 @@
 
 int main(int argc, char** argv) {
     
-    complexNumber x1,x2;
+    complexNumber x1;
+    complexNumber x2;
     float a,b,c;
     float det;
     giveMeInput(&a,&b,&c);
@@ -34,8 +35,8 @@ void giveMeInput(float *a,float *b,float *c){
 
 void printMySolution(complexNumber x1,complexNumber x2){
     
-    printf(" X1 : %f\n ", x1);
-    printf("X2 : %f\n   ", x2);
+    printf(" X1 : %s\n ", x1);
+    printf("X2 : %s\n   ", x2);
     
     return;
 }
