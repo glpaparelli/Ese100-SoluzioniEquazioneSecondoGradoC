@@ -15,6 +15,13 @@ int main(int argc, char** argv) {
     scanf("%d\n",&b);
     scanf("%d\n",&c);
 */  
+    
+    
+    
+    
+    
+    
+    
     x1 = findMyX1(a,b,c);
     x2 = findMyX2(a,b,c);
     
